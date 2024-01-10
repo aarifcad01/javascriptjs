@@ -1,3 +1,4 @@
+/*
 console.log ("welcome to javascript")
 console.log(10);
 console.log(10.10);
@@ -147,4 +148,51 @@ console.log(7==5 || 7<2 || 7>8);
 console.log(v1=="k");
 
 
+v1=10;
+console.log(v1);
+var output=v1=="10"? "v1 has value" :
+"v1 doesnot have value";
+console.log(output);
 
+
+mark=34;
+var mark= (35<mark && mark<60) ? 
+"grade C" : (60<=mark && mark<80) ?
+"grade B" : (80<=mark && mark<90) ?
+"grade A" : (90<=mark && mark<100) ?
+"grade A+" : "fail";
+console.log(mark); 
+*/
+
+function findGrade(){
+    mark=60;
+    var mark= (35<mark && mark<60) ? 
+    "grade C" : (60<=mark && mark<80) ?
+    "grade B" : (80<=mark && mark<90) ?
+    "grade A" : (90<=mark && mark<=100) ?
+    "grade A+" : "fail";
+    console.log(mark); 
+    
+}
+
+findGrade();
+
+function findGrade(dinesh,mark){
+mark=67;
+var mark= (35<mark && mark<60) ? 
+"grade C" : (60<=mark && mark<80) ?
+"grade B" : (80<=mark && mark<90) ?
+"grade A" : (90<=mark && mark<=100) ?
+"grade A+" : "fail";
+console.log(dinesh,mark); 
+}
+findGrade("dinesh");
+
+var findGrade2=(dinesh,mark)=>{ 
+var mark=(35<=mark && mark<60) ? "grade C":
+(60<=mark && mark<80) ? "grade B" :
+(80<=mark && mark<90) ? "grade A" :
+(90<=mark && mark<=100) ? "grade A+" : "Fail"
+console.log(dinesh,mark)
+}
+console.log("dinesh",76)
