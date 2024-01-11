@@ -29,18 +29,19 @@
 
         switch(a){
             case '+':
-                document.getElementById("result").innerHTML=value1 + value2;
-                break;
+                document.getElementById("result").innerHTML="added a value of " + value1 + " and " + value2 + " is..." + (value1+value2) ;
+                break; 
             case '-': 
-                document.getElementById("result").innerHTML=value1 - value2;
+                document.getElementById("result").innerHTML= "subtracted a value of " + value1 + " and " + value2 + " is... " + (value1-value2);
                 break;
             case '*':
-                document.getElementById("result").innerHTML=value1 * value2;
+                document.getElementById("result").innerHTML= "multiply a value of " + value1 + " and " + value2 + " is... " + (value1*value2);
                 break;
             case '/':
-                document.getElementById("result").innerHTML=value1 / value2;
+                document.getElementById("result").innerHTML="division a value of " + value1 + " and " + value2 + " is... " + (value1/value2);
                 break;
         }
         }
     
 </script>
+
