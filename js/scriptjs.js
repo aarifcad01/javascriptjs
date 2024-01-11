@@ -162,7 +162,7 @@ var mark= (35<mark && mark<60) ?
 "grade A" : (90<=mark && mark<100) ?
 "grade A+" : "fail";
 console.log(mark); 
-*/
+
 
 function findGrade(){
     mark=60;
@@ -196,3 +196,6 @@ var mark=(35<=mark && mark<60) ? "grade C":
 console.log(dinesh,mark)
 }
 console.log("dinesh",76)
+*/
+
+
