@@ -199,3 +199,8 @@ console.log("dinesh",76)
 */
 
 
+<script>
+        function registration(){
+
+    }
+    </script>
